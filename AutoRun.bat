@@ -1,0 +1,10 @@
+@ECHO OFF
+COLOR 0A
+SET PYTHONHOME=
+SET PYTHONPATH=
+SET VENV_PATH=%~dp0
+CD /D %VENV_PATH%
+CALL %VENV_PATH%.venv\Scripts\activate.bat
+python main.py
+PAUSE
+EXIT
