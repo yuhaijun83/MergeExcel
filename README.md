@@ -1,13 +1,15 @@
 # MergeExcel
 Merge multiple Excel files
 
+# Python版本
+Python 3.13.11
+
 # 创建虚拟环境
 python -m venv .venv
 # 升级pip
-python -m pip --upgrade pip
+python -m pip install --upgrade pip
 # 安装依赖包
 pip install -r requirements.txt
-
 
 # 各文件说明
 │  .gitignore <br>
@@ -36,7 +38,7 @@ pip install -r requirements.txt
 └─output                            &nbsp;&nbsp;&nbsp;&nbsp;-> # Excel 输出目录（合并后Excel文件） <br>
  <br>
 
-# 合并例
+# Excel文件合并例
 input_a.xlxs<br>
 a b c<br>
 1 2 3<br>
