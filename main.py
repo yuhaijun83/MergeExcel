@@ -20,7 +20,7 @@ else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 input_path  = os.path.join(BASE_DIR, "input")
 output_path  = os.path.join(BASE_DIR, "output")
-output_file = os.path.join(output_path, "报告查询合并结果_{0}.xlsx")
+output_file = os.path.join(output_path, "Excel合并结果_{0}.xlsx")
 
 if not os.path.exists(input_path):
     print(f"输入目录 {input_path} 不存在，请重新确认")
