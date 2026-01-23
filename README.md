@@ -42,7 +42,13 @@ pip install -r requirements.txt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excel合并结果_20260123_105846.xlsx <br>
   <br>
 
-# Excel文件合并例
+# 使用方法1
+把要合并的excel放到input文件夹下，运行 AutoRun.bat ，会自动在 output 文件夹下生成合并结果<br>
+
+# 使用方法2
+把 dist文件夹下的 MergeExcel.exe 拷贝出来，放到跟 input 文件夹同级文件夹下，运行 MergeExcel.exe ，会自动在 output 文件夹下生成合并结果<br>
+
+# Excel文件合并后的结果例
 input_a.xlxs<br>
 a b c<br>
 1 2 3<br>
@@ -51,8 +57,8 @@ input_b.xlxs<br>
 a b d<br>
 5 6 7<br>
 <br>
-output.xlxs<br>
-a b c d<br>
-1 2 3<br>
-5 6 &nbsp;&nbsp;  7<br>
+Excel合并结果_20260123_105846.xlsx<br>
+来源文件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a b c d<br>
+input_a.xlsx 1 2 3<br>
+input_b.xlsx 5 6 &nbsp;&nbsp;  7<br>
 
